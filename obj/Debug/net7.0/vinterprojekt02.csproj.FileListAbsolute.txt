@@ -1,0 +1,15 @@
+C:\programmering2cs\vinterprojekt01\vinterprojekt02\obj\Debug\net7.0\vinterprojekt02.csproj.AssemblyReference.cache
+C:\programmering2cs\vinterprojekt01\vinterprojekt02\obj\Debug\net7.0\vinterprojekt02.GeneratedMSBuildEditorConfig.editorconfig
+C:\programmering2cs\vinterprojekt01\vinterprojekt02\obj\Debug\net7.0\vinterprojekt02.AssemblyInfoInputs.cache
+C:\programmering2cs\vinterprojekt01\vinterprojekt02\obj\Debug\net7.0\vinterprojekt02.AssemblyInfo.cs
+C:\programmering2cs\vinterprojekt01\vinterprojekt02\obj\Debug\net7.0\vinterprojekt02.csproj.CoreCompileInputs.cache
+C:\programmering2cs\vinterprojekt01\vinterprojekt02\bin\Debug\net7.0\vinterprojekt02.exe
+C:\programmering2cs\vinterprojekt01\vinterprojekt02\bin\Debug\net7.0\vinterprojekt02.deps.json
+C:\programmering2cs\vinterprojekt01\vinterprojekt02\bin\Debug\net7.0\vinterprojekt02.runtimeconfig.json
+C:\programmering2cs\vinterprojekt01\vinterprojekt02\bin\Debug\net7.0\vinterprojekt02.dll
+C:\programmering2cs\vinterprojekt01\vinterprojekt02\bin\Debug\net7.0\vinterprojekt02.pdb
+C:\programmering2cs\vinterprojekt01\vinterprojekt02\obj\Debug\net7.0\vinterprojekt02.dll
+C:\programmering2cs\vinterprojekt01\vinterprojekt02\obj\Debug\net7.0\refint\vinterprojekt02.dll
+C:\programmering2cs\vinterprojekt01\vinterprojekt02\obj\Debug\net7.0\vinterprojekt02.pdb
+C:\programmering2cs\vinterprojekt01\vinterprojekt02\obj\Debug\net7.0\vinterprojekt02.genruntimeconfig.cache
+C:\programmering2cs\vinterprojekt01\vinterprojekt02\obj\Debug\net7.0\ref\vinterprojekt02.dll
