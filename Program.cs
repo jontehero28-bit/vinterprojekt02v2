@@ -10,8 +10,7 @@ while (true)//
 {
     while (GameOn == true) //bara så att den körs om hela tiden
     {
-        Console.WriteLine("Välkommen till min lilla fina svärd shop!");
-        Console.WriteLine("");
+        Console.WriteLine("Välkommen till min lilla fina svärd shop!\n");
         shop.ListItemsInShop();
         inventory.InventoryItems();
         Console.WriteLine($"Du har {inventory.inventorySpace} plats kvar");
@@ -34,9 +33,9 @@ int svar1()
     while (true)
     {
         int j = GetNummber();
-        if (j >= 0 && j < 6)
+        if (j >= 0 && j < 7)
         {
-
+            inventory.inventorySpace--;
             return j;
         }
 
