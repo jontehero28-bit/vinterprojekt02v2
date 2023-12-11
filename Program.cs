@@ -6,28 +6,27 @@ int i;
 
 bool GameOn = true;
 
-while (true)//
+while (true)//main loop
 {
     while (GameOn == true) //bara så att den körs om hela tiden
     {
+
         Console.WriteLine("Välkommen till min lilla fina svärd shop!\n");
         shop.ListItemsInShop();
         inventory.InventoryItems();
         Console.WriteLine($"Du har {inventory.inventorySpace} plats kvar");
-
-        i = svar1();
         
+        i = svar1();
+
         inventory.items.Add(shop.items[i]);
         shop.items.RemoveAt(i);
         inventory.InventoryItems();
-
+        
     }
-
-
 
 }
 
-int GetNummber()
+int Tasiffra()//tryparse
 {
     string i = "";
 
@@ -45,21 +44,20 @@ int svar1()
     Console.WriteLine("Skriv ett nummer mellan 0-6");
     while (true)
     {
-        int j = GetNummber();
+        int j = Tasiffra();
         if (j >= 0 && j < 7)
         {
             inventory.inventorySpace--;
             return j;
         }
+        else if (inventory.inventorySpace == 0)
+        {
+            Console.WriteLine("Du har slut på plats i fickorna.");
+        }
 
         else
         {
             Console.WriteLine("Skriv mellan 0-6");
-
-            
         }
     }
 }
-//får ett answer och retunerar en int
-
-//kollar så att det är ett nummer och inte text
