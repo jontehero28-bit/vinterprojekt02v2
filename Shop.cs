@@ -3,7 +3,7 @@ public class Shop
     Item item = new();
     
     public List<Item> items = new() { };
-
+    List<string> Names = new() {"Hidden Blade", "Guts Sword", "Blades of Chaos", "Behelit", "Buster Sword", "Master Sword", "An'ferthe"}; //7 items
     
     public void ListItemsInShop() //skriva ut texten (jag ville använda en foreach loop) och alla items
     {
@@ -13,11 +13,14 @@ public class Shop
             Console.WriteLine(i.Name);
 
         }
-        List<string> Names = new() {"Hidden Blade", "Guts Sword", "Blades of Chaos", "Behelit", "Buster Sword", "Master Sword", "An'ferthe"}; //7 items
-        for (int i = 0; i < Names.Count; i++)
+        
+    }
+    public Shop() {
+        for (int i = 0; i < 6; i++)
         {
-            Console.WriteLine(Names[i]);
-            
+            Item item = new();
+            item.Name = Names[i];
+            items.Add(item);
         }
     }
 
