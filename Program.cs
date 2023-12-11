@@ -26,6 +26,19 @@ while (true)//
 
 
 }
+
+int GetNummber()
+{
+    string i = "";
+
+    int j;
+    while (!int.TryParse(i, out j) == true)
+    {
+        i = Console.ReadLine();
+    }
+    return j;
+}
+
 int svar1()
 {
     Console.WriteLine("");
@@ -48,15 +61,5 @@ int svar1()
     }
 }
 //får ett answer och retunerar en int
-int GetNummber()
-{
-    string i = "";
 
-    int j;
-    while (!int.TryParse(i, out j) == true)
-    {
-        i = Console.ReadLine();
-    }
-    return j;
-}
 //kollar så att det är ett nummer och inte text
