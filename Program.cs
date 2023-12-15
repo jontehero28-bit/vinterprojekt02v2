@@ -18,7 +18,7 @@ while (true)//main loop
         
         i = svar1();
 
-        inventory.items.Add(shop.items[i]);
+        inventory.items.Push(shop.items[i]);
         shop.items.RemoveAt(i);
         inventory.InventoryItems();
         
