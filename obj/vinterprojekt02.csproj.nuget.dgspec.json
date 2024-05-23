@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\programmering2cs\\vinterprojekt01\\vinterprojekt02\\vinterprojekt02.csproj": {}
+    "c:\\programmering2cs\\vinterprojekt01\\vinterprojekt02\\vinterprojekt02.csproj": {}
   },
   "projects": {
-    "C:\\programmering2cs\\vinterprojekt01\\vinterprojekt02\\vinterprojekt02.csproj": {
+    "c:\\programmering2cs\\vinterprojekt01\\vinterprojekt02\\vinterprojekt02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\programmering2cs\\vinterprojekt01\\vinterprojekt02\\vinterprojekt02.csproj",
+        "projectUniqueName": "c:\\programmering2cs\\vinterprojekt01\\vinterprojekt02\\vinterprojekt02.csproj",
         "projectName": "vinterprojekt02",
-        "projectPath": "C:\\programmering2cs\\vinterprojekt01\\vinterprojekt02\\vinterprojekt02.csproj",
+        "projectPath": "c:\\programmering2cs\\vinterprojekt01\\vinterprojekt02\\vinterprojekt02.csproj",
         "packagesPath": "C:\\Users\\yuriy.petrov\\.nuget\\packages\\",
-        "outputPath": "C:\\programmering2cs\\vinterprojekt01\\vinterprojekt02\\obj\\",
+        "outputPath": "c:\\programmering2cs\\vinterprojekt01\\vinterprojekt02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yuriy.petrov\\AppData\\Roaming\\NuGet\\NuGet.Config"

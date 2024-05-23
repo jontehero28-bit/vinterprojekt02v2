@@ -2,12 +2,16 @@
 
 Shop shop = new();
 Inventory inventory = new();
+Market market = new();
+Utility utility = new();    //utility kommer innehålla fuktioner som jag kan inte lägga till någon annanstans.
 int i;
 
-bool GameOn = true;
+bool GameOn = false;
 
 while (true)//main loop
 {
+    GameOn = utility.StartGame(GameOn);
+
     while (GameOn == true) //bara så att den körs om hela tiden
     {
 
@@ -18,9 +22,15 @@ while (true)//main loop
         
         i = svar1();
 
-        inventory.items.Push(shop.items[i]);
-        shop.items.RemoveAt(i);
+        inventory.items.Push(shop.ShopItems[i]);
+        shop.ShopItems.RemoveAt(i);
         inventory.InventoryItems();
+        if (inventory.inventorySpace == 0) //ifall inventory space = 0 då stängs av spelet.
+        {
+            Console.WriteLine("Väskan blev för tung och du dog.");
+            
+            GameOn = false;
+        }
         
     }
 
