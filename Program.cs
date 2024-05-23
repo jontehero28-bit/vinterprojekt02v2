@@ -17,6 +17,7 @@ while (true)//main loop
 
         Console.WriteLine("Välkommen till min lilla fina svärd shop!\n");
         shop.ListItemsInShop();
+        market.ListItemsInMarket(market);
         inventory.InventoryItems();
         Console.WriteLine($"Du har {inventory.inventorySpace} plats kvar");
         

@@ -36,6 +36,9 @@ public class FreshItem : Item //skapa subclass av superclass Item
     public FreshItem() //construct method för att kolla fräsch eller icke
     {
         int _number = Random.Shared.Next(_namesVegetableItems.Length); //randomize som gjorde förut på deras längd
+        Name = GetNames(_number);
+        Vegetable = GetFresh();
+        _lastIsFresh = !_lastIsFresh; //?
         
     }
 
@@ -55,10 +58,11 @@ public class FreshItem : Item //skapa subclass av superclass Item
         }
         else
         {
-            i = "Moldy";
+            i = "Moldy";  //annars säg att den är möglig
         }
         return i;
     }
+    //metoden får ut freschennss.
     
 }
 

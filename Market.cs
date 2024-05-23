@@ -9,10 +9,15 @@ public class Market
     {
         Console.WriteLine("Välkommen till Market");
         Console.WriteLine("Du kan försöka sno dessa föremål");
+        
 
         foreach (Item i in market.Items)
         {
-
+            if (i is FreshItem)
+            {
+                Console.Write(((FreshItem)i).Vegetable);
+            }
+            Console.Write(i.Name + "(" + i.RequiredSpace + ")" + ",");
         }
     }
 
